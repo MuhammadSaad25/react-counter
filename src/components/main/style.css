@@ -11,8 +11,8 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 50%;
-  width: 50%;
+  height: 90%;
+  width: 90%;
   background: #000;
   overflow: hidden;
   border-radius: 30px;
