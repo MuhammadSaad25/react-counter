@@ -9,7 +9,7 @@ function Counter() {
     return (
         <div className="container">
             <div className="content">
-                <h1>Countter {num}</h1>
+                <h1>Counter {num}</h1>
                 <div className="btns">
                     <button onClick={subNum}
                         className="btn-flip"
@@ -21,12 +21,6 @@ function Counter() {
                         className="btn-flip"
                         data-back="+"
                         data-front="Addiction"
-                    ></button>
-                    <button
-                        href="#"
-                        className="btn-flip"
-                        data-back="Back"
-                        data-front="Front"
                     ></button>
                 </div>
             </div>
