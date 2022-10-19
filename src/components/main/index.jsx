@@ -15,8 +15,11 @@ function Counter() {
 
 
         <div className={(isLit) ? 'container' : 'container1'}>
+
             <div className={(isLit) ? 'content' : 'content1'}>
+
                 <h1>Counter {num}</h1>
+
                 <div className="btns">
                     <button onClick={subNum}
                         className="btn-flip"
@@ -30,13 +33,13 @@ function Counter() {
                         data-front="Addiction"
                     ></button>
                 </div>
+           
             </div>
 
             <div className="flap"></div>
+
             <div className='fBtn'>
                 <button className={(isLit) ? 'tBtn' : 'tBtn1'} onClick={toggle}><GiLightBulb /></button>
-
-                {/* <button>  </button> */}
             </div>
 
 

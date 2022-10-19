@@ -41,7 +41,6 @@ body {
   align-items: center;
 }
 
-
 .content {
   position: absolute;
   top: 50%;
@@ -60,7 +59,6 @@ body {
   padding: 40px;
   font-family: "Merriweather", serif;
 }
-
 
 h1 {
   font-weight: 900;
@@ -83,14 +81,12 @@ h3 {
   height: 100%;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 .flap1 {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .flap::before {
@@ -99,12 +95,10 @@ h3 {
   height: 20%;
   width: 100%;
   background: rgb(147, 0, 0);
-
   background-position: 100px;
   background-repeat: no-repeat;
   transition: 3s;
   box-shadow: inset 0 10px 16px rgb(255, 255, 255), 0 0px 0px rgb(255, 255, 255);
-
   border-radius: 0px 10px 10px 0px;
   transform: skewY(20deg);
 }
@@ -122,7 +116,6 @@ h3 {
   width: 100%;
   right: 0;
   background: rgb(147, 0, 0);
-
   background-position: -200px;
   background-repeat: no-repeat;
   transition: 3s;
@@ -209,12 +202,9 @@ h3 {
 }
 
 .fBtn {
-  /* text-align: center; */
   position: absolute;
   top: 70px;
-  /* left: 90px; */
 }
-
 
 .fBtn button {
   font-size: 36px;
@@ -224,16 +214,11 @@ h3 {
   background: transparent;
   height: 50px;
   border-radius: 50px;
-  /* text-align: center; */
-  /* position: absolute; */
-  /* top: 100px; */
-  /* left: 650px; */
 }
 
-.tBtn1{
+.tBtn1 {
   color: #fff;
 }
-
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>> */
 
